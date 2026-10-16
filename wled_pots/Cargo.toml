@@ -1,0 +1,13 @@
+[package]
+name = "wled_pots"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+ureq = "2"
+mdns-sd = "0.11"
+
+[dev-dependencies]
+tiny_http = "0.12"
